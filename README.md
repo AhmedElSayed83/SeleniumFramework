@@ -2,7 +2,7 @@
 Selenium Framework project using Java, Maven, TestNG and POM
 and we used DDT and BDD framework in the project.
 
-Tech. Stack:
+# Tech. Stack:
 
 - Java.
 - Maven.
