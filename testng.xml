@@ -4,7 +4,6 @@
   <test name="Regression Test" preserve-order="false">
     <classes>
       <class name="testCases.UserRegistrationWithDDTAndJavaFakerTC"/>
-      <class name="testCases.AddProductReviewTC"/>
       <class name="testCases.ContactUsTC"/>
     </classes>
   </test> 
