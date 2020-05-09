@@ -24,7 +24,7 @@ public class AddProductReviewTC extends TestCaseBase{
 		homeObject = new HomePO(driver);
 		homeObject.openRegistrationPage();
 		registerObject = new UserRegistrationPO(driver);
-		registerObject.userRegistration("Ramadan3", "Kareem", "gadi1030@test.com", "123456");
+		registerObject.userRegistration("Ramadan3", "Kareem", "jenkins@test.com", "123456");
 		Assert.assertTrue(registerObject.SuccessMsg.getText().contains("Your registration completed"));
 		System.out.println(registerObject.SuccessMsg.getText());
 	}
